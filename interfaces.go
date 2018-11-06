@@ -29,12 +29,12 @@ func saySomething(h human) {
 }
 
 func main() {
-	p1 := person {
+	p1 := person{
 		fname: "sinan",
 		lname: "talebi",
 	}
-	s1 := secretAgent {
-		person {
+	s1 := secretAgent{
+		person{
 			"chuck",
 			"bartowski",
 		},

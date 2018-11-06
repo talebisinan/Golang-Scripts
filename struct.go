@@ -21,15 +21,15 @@ func (s secretAgent) speak() {
 }
 
 func main() {
-	p1 := person {
+	p1 := person{
 		fname: "sinan",
 		lname: "talebi",
 	}
 	fmt.Println(p1)
 	p1.speak()
 
-	s1 := secretAgent {
-		person {
+	s1 := secretAgent{
+		person{
 			"chuck",
 			"bartowski",
 		},
